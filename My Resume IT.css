@@ -1,114 +1,50 @@
-h6 {
-    letter-spacing: 3px;
-    word-spacing: 3px;
-    font-family: Helvetica;
-}
-
-h1 {
-    font-size: larger;
-    color: cyan;
-    font-family: 'Monoton', cursive;
-}
-
-b {
-    text-shadow: 1px 1px 4px black, 3px 6px purple, 5px 5px 8px red, 7px 7px 10px purple;
-    
-}
-
-body {
-  background-color: black;
-
-}
-
-button {
-    margin: 5px 10px 5px 10px;
-    padding: 4px 7px 4px 7px;
-    border: solid black;
-    background-color: silver;
-    color: red;
-}
-
-.box {
-    margin: 5px 10px 5px 10px;
-    width: 69%;
-    box-sizing: border-box;
-    border: 8px solid red;
-    box-shadow: 1px 1px 4px whitesmoke, 3px 6px purple, 5px 5px 8px red, 7px 7px 10px purple;
-    border-radius: 5px;
-
-
-}
-.knox {
-    border:6px solid blue;
-    border-radius: 5px;
+header {
     background-color: black;
-
+    text-align: center;
+    padding:20px;
 }
-
-.fox {
-    border:6px solid white;
-    border-radius: 5px;
-
-}
-
-h4 {
-    letter-spacing: 3px;
-    word-spacing: 3px;
-    font-family: Helvetica;
-    text-shadow: 1px 1px 4px whitesmoke, 3px 6px purple, 5px 5px 8px red, 7px 7px 10px purple;
-}
-
 footer {
     background-color: black;
     color: whitesmoke;
     text-align: center;
     padding: 10px;
 }
-
-
-.tux {
-    border-top: 5px solid red;
-    border-right: 5px solid red;
-    border-bottom: 5px solid red;
-    border-left: 5px solid red;
-    background-color: black;
-}
-
-a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-tr:nth-child(even) {
+.content {
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-radius: 0px;
     background-color:black;
+    border-color: #0FFF50;
+    padding: 20px;
+    height:500px;
+    flex:3;
 }
 
-button {
-    align-items: center;
-    text-decoration: double underline overline #FF3028;
-    color: red;
-    background-color: silver
+main {
+    display: flex;}
+img {
+    margin-left: -50px;
 }
-
-strong {
-    font-size:20px ;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 900;
-    font-stretch:ultra-expanded;
+h4 {
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-family: Helvetica;
+    text-shadow: 5px 5px 8px #0FFF50, 7px 7px 10px green;
 }
-
 /*...............................................................................................................................*/
 .neon{
     font-family: 'Monoton', cursive;
     font-size:80px;
-    color: #d5fff3;
+    color: #0FFF50;
     position: left 50px;
     top: 50%;
     left: 50%;
     transform: translate(0%, 0%);
     font-weight: 200;
     letter-spacing: 8px;
-    text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
+    text-shadow: 1px 0px 4px #AFE1AF, 2px 0px 4px #AFE1AF, 3px 0px 4px #50C878, 2px 0px 3px #50C878 , 2px 3px 15px #0FFF50, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #0FFF50,40px 0vw 200px #0FFF50;
   }
   
   .flicker-slow{
@@ -130,48 +66,87 @@ strong {
       }
   }
 /*..............................................................................................................................................*/  
-.neonn{
-    font-family: 'Monoton', cursive;
-    font-size:40px;
-    color: #d5fff3;
-    position: left 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, 0%);
-    font-weight: 200;
-    letter-spacing: 8px;
-    text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
-  }
-  /*................................................................................................................................................*/
-  .neonnn{
-    font-family: 'Monoton', cursive;
-    font-size:30px;
-    color: cyan;
-    position: left 50px;
-    top: 0%;
-    left: 0px;
-    transform: translate(0%, 0%);
-    font-weight: 400;
-    letter-spacing: 12px;
-    text-shadow: 1px 0px 4px #22067e, 2px 0px 4px #22067e, 3px 0px 4px #FFD5FF, 2px 0px 3px purple, 2px 3px 15px purple, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
-  }
+.containerss {
+    display: flex;
+    justify-content: space-around;
+   }
+   
+   .glow-image {
+    border-radius: 50%;
+    transition: box-shadow 0.5s ease;
+    height: 169px;
+   }
+   
+   .glow-image:hover {
+    box-shadow: 0 0 20px #0FFF50;
+   }
 /*..............................................................................................................................................*/  
-.neons{
-    font-family: 'Monoton', cursive;
-    font-size:0px;
-    color: red;
-    position: left 50px;
-    top: 0%;
-    left: 0px;
-    transform: translate(0%, 0%);
-    font-weight: 800;
-    letter-spacing: 4px;
-    text-shadow: 1px 0px 4px white, 2px 0px 4px #838996, 3px 0px 4px #FFD5FF, 2px 0px 3px white, 2px 3px 15px #838996, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
-  }
-/*..............................................................................................................................................*/  
-h5 {
-    font-size: larger;
-    color:cyan;
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#3e8e41;
 }
 /*..............................................................................................................................................*/  
+h2 {
+    color: #0FFF50;
+}
+/*....................................................................................................................................................................................................................*/
+/* Default styles for all devices */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for devices with a width of 768 pixels or less */
+@media screen and (max-width: 768px) {
+    .header {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+/* Styles for devices with a width greater than 768 pixels */
+@media screen and (min-width: 769px) {
+    .header {
+        display: inline-block;
+    }
+
+    .sidebar {
+        display: inline-block;
+    }
+}
+/*....................................................................................................................................................................................................................*/
+button:hover {
+    background-color:#3e8e41;
+}
